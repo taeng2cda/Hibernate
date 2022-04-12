@@ -32,7 +32,7 @@ public class FrontController extends HttpServlet {
         System.out.println("destroy!!");
         HibernateUtil.closeEntityManager();
     }
-
+//test
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
