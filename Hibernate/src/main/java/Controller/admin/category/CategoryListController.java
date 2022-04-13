@@ -20,6 +20,14 @@ public class CategoryListController implements Controller {
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		if (getMethod().equals("POST")){
+
+
+		}else if(getMethod().equals("GET")){
+
+		}else {
+			오류났따....
+		}
 		
 		CategoryService categoryService = new CategoryService(request);
 		categoryService.getCategoryList();
