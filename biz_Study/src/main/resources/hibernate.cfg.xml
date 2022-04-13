@@ -14,6 +14,13 @@
         <property name="show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
 
+        <!-- <property name="hibernate.hbm2ddl.auto"> ?? </property>
+        create : SessionFactory 시작시 스키마를 삭제하고 다시 생성
+        create-drop : SessionFactory 종료시 스키마를 삭제
+        update : SessionFactory 시작시 객체 구성와 스키마를 비교하여 컬럼 추가/삭제 작업을 진행함. 기존의 스키마를 삭제하지 않고 유지.
+        validate : SessionFactory 시작시 객체구성과 스키마가 다르다면 예외 발생시킴.
+
+        -->
 
         <mapping class="com.Entity.users"/>
 
